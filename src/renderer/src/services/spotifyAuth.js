@@ -8,7 +8,7 @@
 // ── Configuration ───────────────────────────────────────────────
 // Users must set their own Client ID from https://developer.spotify.com/dashboard
 const CLIENT_ID = localStorage.getItem('spotify_client_id') || 'YOUR_CLIENT_ID'
-const REDIRECT_URI = 'http://localhost:5173/callback'
+const REDIRECT_URI = 'http://127.0.0.1:5173/callback'
 const SCOPES = [
   'user-read-currently-playing',
   'user-read-playback-state'
